@@ -1,0 +1,59 @@
+body{
+    background-color: white 
+}
+h1{
+    border-top-width: 25px;
+            border-top-style: ridge;
+            border-top-color:blue;
+            border-left-width: 5px;
+            border-left-style: solid;
+            border-left-color: blue;
+            border-bottom-width: 5px;
+            border-bottom-style: solid;
+            border-bottom-color: blue;
+            border-right-width: 5px;
+            border-right-style: solid;
+            border-right-color: blue;
+
+    font-size: 45px;
+    font-weight: normal;
+    text-align: center;
+    color: #000000;
+    font-family: "Times New Roman"
+}
+h2{
+    font-size: 18px;
+    font-weight: normal;
+    text-align: left;
+    color: black 
+}
+ul{
+    font-size: 15px;
+    font-weight: normal;
+    text-align: left;
+    color: green
+}
+ol{
+    font-size: 15px;
+    font-weight: normal;
+    text-align: left;
+    color: green
+}
+section{
+    font-size: 15px;
+    font-weight: normal;
+    text-align: left;
+    color: red
+}
+h3{
+    font-size: 15px;
+    font-weight: normal;
+    text-align: left;
+    color: blue
+}
+h4{
+    font-size: 15px;
+    font-weight: normal;
+    text-align: left;
+    color: blue
+}
