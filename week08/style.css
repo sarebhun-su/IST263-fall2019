@@ -1,0 +1,165 @@
+body{
+    background-color:#ffccf2;
+}
+
+.navbar{
+    display:flex;
+    justify-content:center;
+    
+}
+
+.navbar a{
+    padding:10px;
+}
+
+.boxes{
+    display:flex;
+    justify-content:center;
+}
+
+.personal{
+    width:600px;
+    margin: 0px 50px 0px 0px;
+    line-height:30px;
+    background-color:white;
+    padding: 10px;
+    height:300px;
+    color: red;
+
+}
+
+.personal h3{
+    display:flex;
+    justify-content:center;
+}
+
+.styles{
+    width:600px;
+    margin: 0px 0px 0px 50px;
+    background-color:white;
+    line-height:30px;
+    padding: 10px;
+    height:300px;
+    color: red;
+}
+
+.styles h3 {
+    display:flex;
+    justify-content:center;
+}
+
+
+.babypic img {
+    height:500px;
+}
+
+.baby img {
+    height:500px;
+}
+
+.pictures{
+    display:flex;
+    justify-content:center;
+    margin: 25px;
+}
+
+.text{
+   margin: 0px 10px 0px 0px;
+}
+
+.textbox{
+  margin: 0px 0px 0px 30px;
+}
+
+.about{
+    display: flex;
+    justify-content:center;
+}
+
+.author{
+    width: 700px;
+    margin:0px 107px;
+    line-height:30px;
+    background-color:white;
+    padding: 10px;
+    color: red;
+}
+
+.contact{
+    margin: 0px 107px;
+    line-height:30px;
+    background-color:white;
+    padding: 10px;
+    color: red;
+}
+
+h1{
+    color:#e600ac;
+}
+
+h2{
+    color:#ff33cc;
+}
+
+ul{
+    color:#ff66d9;
+}
+
+.slower{
+    justify-content:center;
+    color: rebeccapurple;
+    font-style: italic;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.never{
+    color: rebeccapurple;
+    font-style: italic;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.recital{
+    color: purple;
+    font-style: oblique;
+    padding: 5px;
+}
+
+.special{
+    color: purple;
+    font-style: oblique;
+    padding: 5px;
+}
+
+.lead{
+    justify-content:center;
+}
+
+.column{
+    float: left;
+    width: 40%;
+    color: rgb(189, 44, 218);
+    font-size: 20px;
+    padding: 45px;
+}
+
+.create{
+    float: center;
+    width: 70%;
+    color: hotpink;
+    font-size: 20px;
+    justify-content:center;
+    display: flex;
+    padding: 20px;
+}
+
+.smile{
+    float: right;
+    width: 40%;
+    color: rgb(105, 4, 105);
+    font-size: 20px;
+    padding: 45px;
+}
+
+
