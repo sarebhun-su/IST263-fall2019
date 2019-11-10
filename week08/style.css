@@ -9,6 +9,7 @@ body{
 }
 
 .navbar a{
+    flex-direction: row;
     padding:10px;
 }
 
@@ -50,17 +51,30 @@ body{
 
 
 .babypic img {
-    height:500px;
+    height: 500px;
+    
 }
 
 .baby img {
-    height:500px;
+    height: 500px;
+    padding-left: 40px;
+}
+
+.babypic{
+    align-self: center;
+    text-align: center;
 }
 
 .pictures{
     display:flex;
     justify-content:center;
     margin: 25px;
+}
+
+.text_smile{
+    width: 500px;
+    font-size: 20px;
+    margin-right: 10px;
 }
 
 .text{
@@ -71,15 +85,20 @@ body{
   margin: 0px 0px 0px 30px;
 }
 
+.pic img{
+    height: 650px;
+    margin-left: 100px;
+}
+/* 
 .about{
     display: flex;
     justify-content:center;
-}
+} */
 
 .author{
-    width: 700px;
+    /* width: auto;
     margin:0px 107px;
-    line-height:30px;
+    line-height:30px; */
     background-color:white;
     padding: 10px;
     color: red;
@@ -91,6 +110,8 @@ body{
     background-color:white;
     padding: 10px;
     color: red;
+    align-content: center;
+    text-align: center;
 }
 
 h1{
@@ -99,6 +120,10 @@ h1{
 
 h2{
     color:#ff33cc;
+}
+
+h3{
+    text-align: center;
 }
 
 ul{
@@ -137,11 +162,11 @@ ul{
 }
 
 .column{
-    float: left;
-    width: 40%;
+    /* width: 40%; */
     color: rgb(189, 44, 218);
     font-size: 20px;
-    padding: 45px;
+    /* padding: 45px;]
+    /* margin-right: 10px; */
 }
 
 .create{
@@ -155,11 +180,34 @@ ul{
 }
 
 .smile{
-    float: right;
-    width: 40%;
     color: rgb(105, 4, 105);
     font-size: 20px;
     padding: 45px;
+    display: flex;
 }
 
+.smile_text{
+    width: 60%;
 
+}
+
+.nav-bar {
+    list-style: none;
+}
+
+.top{
+    display: flex;
+}
+
+.middle{
+    padding-top: 70px;;
+}
+.bottom{
+    align-content: center;
+    text-align: center;
+}
+
+.list{
+    font-size: 25px;
+
+}
