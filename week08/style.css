@@ -11,6 +11,7 @@ body{
 .navbar a{
     flex-direction: row;
     padding:10px;
+    color:#003B7A;
 }
 
 .boxes{
